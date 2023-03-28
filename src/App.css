@@ -1,0 +1,33 @@
+/* .code-container {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+  position: relative;
+} */
+
+.code-container .cursor {
+  position: absolute;
+  width: 2px;
+  height: 1em;
+  background-color: white;
+  animation: blink 1s infinite;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
