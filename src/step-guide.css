@@ -1,0 +1,27 @@
+
+
+.new-step {
+  animation: easeIn 0.5s;
+}
+
+@keyframes easeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-heading{
+    text-align: center;
+    margin: 20px 0;
+    color: darkblue;
+}
+
+.step-name{
+  font-size: 18px;
+    color: blue;
+}
